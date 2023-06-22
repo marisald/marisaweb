@@ -64,6 +64,9 @@
 .container-card{
     display: flex;
     flex-direction: column 4;
+    align-items: center;
+    justify-content: center;
+   
 }
 .headerPrincipal{ 
     display: flex;
