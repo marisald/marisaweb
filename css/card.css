@@ -11,8 +11,10 @@
     position: relative;
     width: 100%;
     height: 100%;
-    text-decoration: none;
+    align-content:center ;
     text-align: center;
+    align-items: center;
+    
     transition: transform 0.8s;
     transform-style: preserve-3d;
   }
@@ -20,7 +22,7 @@
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-    text-decoration: none;
+   
   }
   
   /* Position the front and back side */
@@ -28,6 +30,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
+    color: grey;
     text-decoration: none;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
@@ -44,5 +47,9 @@
     background-color: #f4cdcf;
     color: rgb(114, 112, 112);
     text-decoration: none;
+    /*align-content:center ;*/
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
     transform: rotateY(180deg);
   }
