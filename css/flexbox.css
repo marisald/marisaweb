@@ -1,17 +1,36 @@
+header{
+    background-color:#cfcede;
+}
 .container-logo{
-    width: 100vw;
-    height: 40%;
-    padding: 25px;
-    background-color:#f4cdcf;
-    text-align: center;
+    display: flex;
+    max-width: 98vw;
+    height: 25%;
+    margin: auto;
+    justify-content: space-between;
+    /*padding: 5px;
+    /*background-color:#f0d7e8;*/
+    background-color:#cfcede;
+    color:#878087;
+    /*text-align: center;*/
    animation: logo 3s;  
+}
+.logo{
+    display: flex;
+    opacity: 75%;
+    width: 20%;
+    height: 160px;
+    justify-content: center;
+    align-items: center; 
+    align-self: center;
+    z-index: 1;
 }
     .banner{
     display: flex;
     opacity:0;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
+    justify-content: right;
+  
+    /*align-items: center;
+    align-self: center;*/
     animation: wavey 5s ease alternate infinite;
     &.wave2 {
       animation-delay: 0.1s;
@@ -52,18 +71,26 @@
       }
     
 }
-/*.banner{
-    display: block;
-    padding: 25px;
-    background-color:#f4cdcf ;
-    width: 100%;
-   align-items: center;
-   justify-content: center;
-    }
-*/
+.container-presen{
+   display: flex;
+   flex-direction: row;
+   opacity: .35;
+   justify-content: space-between;
+   
+}
+
+.present-txt{
+    color: #0a0a0a;
+    text-align:justify;
+    text-overflow: ellipsis;
+    padding: 10px;
+    z-index: 3;
+    
+}
 .container-card{
     display: flex;
     flex-direction: column 4;
+    padding: 10px;
     align-items: center;
     justify-content: center;
    

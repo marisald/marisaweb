@@ -44,6 +44,20 @@ a:hover {
     display: flex;
     flex-direction: row;
 }
+.banner-text{
+  display: flex;
+  position: absolute;
+  z-index: 3;
+  color: #fbf9f9;
+  opacity: 75%;
+  align-self:flex-end;
+  text-align: right;
+  margin-right: auto;
+  font-size: 1rem;
+}
+.introdu{
+
+}
 .card {
     display: block;
     /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
