@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
   <title>MarisaWeb|2023</title>
@@ -9,88 +8,97 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" media="screen" href="css/index.css">
   <link rel="stylesheet" href="css/flexbox.css">
-  <script src="https://kit.fontawesome.com/bc5ba52800.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/card.css">
+  
+  <script src="https://kit.fontawesome.com/bc5ba52800.js" crossorigin="anonymous">
+
+  </script>
 </head>
 
 <body>
-  <header class="headerPrincipal">
-    <nav class="navbar">
+  <header class="container-logo">
       <div class="logo">
-        <img src="img/mld2023.png" alt="logo">
+          <img src="/img/logomld.png" alt="logo">
       </div>
-      <ul class="nav-list" id="navlist">
-        <li class="list-item"><a href="Ciclismo.html"><i class="fa-solid fa-person-biking"></i> Ciclismo </a></li>
-        <li class="list-item"><a href="Run.html"><i class="fa-solid fa-person-running"></i> Running </a></li>
-        <li class="list-item"> <a href="Servicios.html"><i class="fa-solid fa-suitcase-rolling"></i> Viajes</a></li>
-        <li class="list-item"><a href="youtube.html"><i class="fa-solid fa-film"></i> Videos </a></li>
-        <li class="list-item"><a href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
-    
-      </ul>
-    </nav>
-  </header>
-  <section>
-    <div class="top-bar"> 
-      <ul>
-        <li><a href="#"><i class="fa-brands fa-instagram"></i></i>Instagram</a></li>
-        <li><a href="#"><i class="fa-brands fa-linkedin"></i>Linkedin</a></li>
-        <li><a href="#"><i class="fa-brands fa-square-youtube"></i>Youtube</a></li>
-      </ul>
+       <div class="banner">
+          <img src="/img/banner.png" alt="hobbies">
+      <div class="banner-text"><p>Todo proceso lleva su tiempo. No abandones algo que realmente quieras porque los resultados aún no se vean.</p></div>
     </div>
-    <div class="banner"><img src="/img/banner2.png" class="banner-foto"alt="">
-    </div>
-  </section>
-  <main class="contenidohobbies">
-   
-      <h2 class="subtitulo">MIS HOBBIES</h2>
-      <h3 class="subtitulo">Un poco de mi historia</h2>
-        <div class="card">
-            <img class="image-card" src="/img/mountain-sun-solid.svg" alt="Viajes" style="width:100%">
-            <div class="container">
-              <h4><b>Viajes</b></h4>
-              <p>en Bici</p>
-            </div>
+     </header>
+   <section class="container-presen">
+    <img src="./img/bici/IMG_8608hori.jpg" alt=""style="width:60%;">
+    <div class="present-txt">
+      <p>Hola mi nombre es Marisa, bienvenidos a mi sitio Web, espero que les agrade la info que tengo para mostrarles, todas las semanas le estaré contando nuevas novedades.
+      Les voy a contar un poco de mi historia >
+    </p>
+  </div>
+  
+   </section>
+     <section class="container-card">
+      
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="/img/bici/tiradaalsol.jpg" alt="Viajes" style="width:350px;height:300px;">
+            <a href="#" class="card-link">Viajes-MTB</a>
           </div>
-      <nav>
-        <ul class="contenidoPrincipal-cursos">
-          
-          <li class="contenidoPrincipal-cursos-link"><a href="#">Viajes</a>
-          <li class="contenidoPrincipal-cursos-link"><a href="#">Entrenamiento en la Ciudad</a>
-          <li class="contenidoPrincipal-cursos-link"><a href="#">Carreras</a>
-          </li>
-          <li class="contenidoPrincipal-cursos-link"><a href="#">Running</a>
-          </li>
-        </ul>
-      </nav>
-
-      <section class="videoSobre">
-      <div class="container">
-        <iframe class="videoSobre-video" width="560" height="315"
-          src="https://www.youtube.com/embed/bIlOsJzBVaY?list=PLh2Y_pKOa4UcF1BYPJR3EIMRi3nWAUxIp" frameborder="0"
-          allowfullscreen></iframe>
-
-        <div class="videoSobre-sobre">
-          <h2 class="videoSobre-sobre-title">Viajes</h2>
-          <ul class="videoSobre-sobre-list">
-            <li class="videoSobre-sobre-item">Estudia donde quiera</li>
-            <li class="videoSobre-sobre-item">Nuevos cursos todos los meses</li>
-            <li class="videoSobre-sobre-item">Cursos compatibles con el mercado</li>
-          </ul>
+          <div class="flip-card-back" > 
+             <h1>MTB</h1>
+            <p>Viajes</p>
+            <p>Conociendo nuevos paisajes</p>
+          </div>
         </div>
       </div>
-    </section>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+               <div class="flip-card-front">
+            <img src="/img/bici/IMG_7872.JPG" alt="Avatar" style="width:350px;height:300px;">
+            <a href="#" class="card-link">Carreras</a>
+         </div>
+          <div class="flip-card-back" >
+            <h1>Carreras</h1>
+            <p>MTB</p>
+            <p>Nuevos desafios</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="/img/bici/IMG_6836.PNG" alt="Avatar" style="width:350px;height:300px;">
+            <a href="#" class="card-link">Viajes en rutera</a>
+          </div>
+          <div class="flip-card-back" >
+            <h1>Viajes</h1>
+            <p>paisajes inolvidables</p>
+            </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="/img/bici/7lagos.jpg" alt="Viajes" style="width:350px;height:300px;">
+            <a href="#" class="card-link">Carreras en rutera</a>
+          </div>
+          <div class="flip-card-back" > 
+             <h1>Carreras</h1>
+            <p>en rutera</p>
+            <p>Desafios</p>
+          </div>
+        </div>
+      </div>
+      
+    </section> 
+ 
+        <!-- 
+      <div class="container">
+        <iframe class="videoSobre-video" width="560" height="315"
+          src="https://youtu.be/Arw6QRtDW2E" frameborder="0"
+          allowfullscreen></iframe>
+   <section class="videoSobre"> --->
 
-  </main>
-
-  <footer class="foot">
-    <h3 class="subtitulo">@Marisaweb|2023</h3>
-  </footer>
-  <!-- <script> 
-        const toggleButton=document.getElementById('toggleButton');
-        const navlist=document.getElementById('navlist');   
-        toggleButton.addEventListener('click', () => {
-        navlist.classList.toggle('active');
-      })
-      </script>v-->
+ 
+ 
 </body>
 
 </html>

@@ -1,0 +1,35 @@
+
+.historia{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 40px;
+    padding: 20px;
+}
+h1{
+    font-size: 40px;
+}
+h3{
+    width: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    font-style:italic ;
+}
+.cafe{
+    width: 250px;
+    height: 200px;
+    opacity: .75;
+    border-radius: 35px;
+    color: aqua;
+}
+.container-txt{
+    display: block;
+    
+   
+}
+.container{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
